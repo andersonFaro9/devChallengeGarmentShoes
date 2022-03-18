@@ -1,0 +1,52 @@
+.main {
+    display: grid;
+    grid-template-columns: 200px;
+    line-height: 1.3em;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+ h2 {
+    display: grid;
+    grid-template-columns: 200px 100px;
+    justify-content: end;
+    color: #e67e34;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 0.9em;
+    
+}
+
+.money{
+    display: grid;
+    color: black;
+    font-weight: bold;
+    grid-template-columns: 200px 100px;
+    justify-content: end;
+    
+}    
+
+
+.prev {
+    display: grid;
+    grid-template-columns: 200px  100px 100px;  
+    
+    justify-content: space-around;
+    align-content: start;
+  }
+
+.prev .title {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    height: 50px;
+    background-color: #999999;
+}
+
+
+.main {
+    grid-area: main;
+}

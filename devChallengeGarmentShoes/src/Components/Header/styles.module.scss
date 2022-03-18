@@ -1,0 +1,48 @@
+// header
+
+.header {
+   grid-area: header;
+    display: grid;
+    grid-template-columns:  1fr auto;
+    // align-items: center;
+    padding-left: 30px;
+    padding-top: 0px;
+    
+}
+
+.header p {
+    background-color: #e67e34;
+    height:35px;
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+    width: 60px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.header ul {
+    display:flex;
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+
+.header ul .account + .account {
+    margin-right: 75px;
+    margin-left: 15px;
+}
+.header ul .togheter + .togheter {
+    margin-left: 56px;
+    margin-right: 45px;
+}
+
+a {
+    color: #404040;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hover {
+   color: #302f2f;
+   
+}

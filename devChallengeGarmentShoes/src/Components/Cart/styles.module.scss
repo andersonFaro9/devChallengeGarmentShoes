@@ -1,0 +1,9 @@
+.cart {
+    display: grid;
+    grid-template-columns: 100px;
+    align-items: start;
+    margin-top: 50px;
+}
+.cart {
+    grid-area: cart;
+}

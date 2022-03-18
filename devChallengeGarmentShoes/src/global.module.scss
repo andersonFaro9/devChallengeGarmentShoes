@@ -1,0 +1,25 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+        
+  }
+ 
+ 
+.container {
+    
+    display: grid;
+    grid-template-columns:  1fr  3fr 200px;
+    background-image: url("./assets/fundo3.jpg");
+    background-repeat: no-repeat;
+    grid-template-areas:
+    "header header header"
+     "navmenu main cart"
+     "footer footer footer";
+     width: 100%;
+     margin: 0 auto;
+    height: 500px;
+}

@@ -1,0 +1,26 @@
+.navmenu {
+    display: grid;
+    grid-template-columns: 1fr 100px 200px;
+    justify-content: flex-start;
+    
+    margin-left: 30px;
+    font-size: 12px;
+    
+}
+
+.navmenu ul {
+
+    list-style-type: none;
+    line-height:2.2em;
+    text-align: center;
+    text-transform: uppercase;
+
+} 
+.brand {
+    color: #e67e34;
+    font-weight: bold;
+}
+.navmenu {
+    grid-area: navmenu;
+}
+
