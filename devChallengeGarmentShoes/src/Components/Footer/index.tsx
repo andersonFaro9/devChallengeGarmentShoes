@@ -9,13 +9,19 @@ const Footer: React.FC = () => (
     <div className={styles.footer}>
       <ul>
         <li>
-          <AiOutlineInstagram />
+          <a href='#'>
+            <AiOutlineInstagram />
+          </a>
         </li>
         <li>
-          <FaFacebookF />
+          <a href='#'>
+            <FaFacebookF />
+          </a>
         </li>
         <li>
-          <FiTwitter />
+          <a href='#'>
+            <FiTwitter />
+          </a>
         </li>
       </ul>
     </div>

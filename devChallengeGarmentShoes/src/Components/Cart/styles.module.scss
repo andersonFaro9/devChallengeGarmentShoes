@@ -4,6 +4,32 @@
     align-items: start;
     margin-top: 50px;
 }
+
+.cart .next {
+    display: grid;
+    padding-top: 10px;
+    grid-template-columns: 57px 100px;
+    justify-content: space-evenly;
+    width: 120px;
+    height: 50px;
+    background-color: #d1cdcd;
+}
+
+
+.next .arrow {
+    display:flex;
+    flex-direction: row;
+}
+
+
+.arrowNext{
+    display:grid;
+    width: 50px;
+    margin-left: 75px;
+    grid-template-columns: 100px 100px 100px 100px;
+    justify-content: space-between;
+}
+
 .cart {
     grid-area: cart;
 }
