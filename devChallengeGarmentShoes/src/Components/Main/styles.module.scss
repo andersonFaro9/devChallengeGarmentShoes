@@ -19,12 +19,13 @@
 }
 
 .money{
-
+    display: grid;
     color: black;
+    justify-content: end;
     font-weight: bold;
     grid-template-columns: 200px 100px;
     margin-top: 35px;
-    justify-content: end;
+
 }
 
 .prev {
