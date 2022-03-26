@@ -5,7 +5,7 @@ import Main from './Components/Main'
 import Cart from './Components/Cart'
 
 import Footer from './Components/Footer'
-import images from '../../assets/background.jpg'
+
 import styles from './global.module.scss'
 function App() {
   return (

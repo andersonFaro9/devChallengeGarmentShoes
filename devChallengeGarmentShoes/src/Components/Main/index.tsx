@@ -7,12 +7,13 @@ const Main: React.FC = () => (
       <h2>
         Brand <br /> Sweatshirt
       </h2>
+
       <p className={styles.money}>$1000</p>
       <a href='#' className={styles.prev}>
-        <p className={styles.arrow}>
+        <span className={styles.arrowNext}>
           <HiArrowNarrowLeft />
-          <span>PREV</span>
-        </p>
+          PREV
+        </span>
       </a>
     </div>
   </>

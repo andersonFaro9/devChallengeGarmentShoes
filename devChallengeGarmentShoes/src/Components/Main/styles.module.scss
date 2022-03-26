@@ -3,14 +3,15 @@
     grid-template-columns: 200px;
     line-height: 1.3em;
     align-items: center;
-    margin-top: 50px;
-    
+    margin-top: 130px;
+     
+
 }
 
  h2 {
     display: grid;
     grid-template-columns: 200px 100px;
-    grid-template-rows: 40px 40px;
+    grid-template-rows: 20px 10px 20px;
     justify-content: end;
     color: #e67e34;
     font-weight: bold;
@@ -18,7 +19,6 @@
     font-size: 50px;
     text-transform: uppercase;
     line-height: 0.9em;
-  
 }
 
 .money{
@@ -26,38 +26,30 @@
     color: black;
     font-weight: bold;
     grid-template-columns: 200px 100px;
+    margin-top: 35px;
     justify-content: end;
-}    
+}
 
 .prev {
-    display: grid;
-    grid-template-columns: 200px  100px 100px;  
-    justify-content: space-around;
-    align-content: start;
+    display:grid;
+    grid-template-columns: 200px 40px 100px 10px;
+    grid-template-rows: 30px 30px 130px;
+    justify-content: end;
 }
 
-.prev .arrow {
-    display: grid;
-    padding-top: 10px;
-    grid-template-columns: 37px 100px;
-    justify-content: space-around;
-    width: 120px;
-    height: 50px;
-    background-color: #d1cdcd;
-}
-.prev .arrow span{
-    display:flex;
-    flex-direction: row-reverse;
-}
-
-.prev .arrow{
-    color: #020202;
-}
-
-.prev .arrow a:hover{
-    color: #020202;
+.arrowNext {
+ display:grid;
+ background-color: #d1cdcd;
+ width:77px;
+ height:46px;
+ justify-content: end;
+ align-items: center;
+ 
+ grid-template-columns: 69px 10px 10px;
 }
 
 .main {
     grid-area: main;
 }
+
+
