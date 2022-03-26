@@ -1,0 +1,20 @@
+{
+  "todotree": {
+    "tree": [
+      {
+        "key": 1645145276751,
+        "children": [],
+        "todo": {
+          "content": "continuar css (estudar grid areas)",
+          "id": 1645145276751,
+          "level": "default",
+          "done": false
+        }
+      }
+    ],
+    "expandKeys": [],
+    "schema": "https://github.com/Saber2pr/vsc-ext-todolist/blob/master/src/api/type.ts#L3",
+    "add_mode": "bottom",
+    "virtual": false
+  }
+}
